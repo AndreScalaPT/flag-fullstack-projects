@@ -1,0 +1,39 @@
+{
+  "name": "CONTACTO - Companhia de Teatro Água Corrente de Ovar",
+  "short_name": "CONTACTO",
+  "description": "Companhia de Teatro Água Corrente de Ovar — fundada em 1983, dedicada à criação, promoção e difusão teatral em Ovar e além-fronteiras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1C1C1C",
+  "theme_color": "#8B0000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/imgs/favicon/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/imgs/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["theatre", "culture", "arts", "performance", "community"],
+  "lang": "pt-PT",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false
+}

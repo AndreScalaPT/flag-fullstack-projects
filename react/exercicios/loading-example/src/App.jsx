@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Example from "./components/Search";
 
+/* TODO: usar useEffect e o filtercategories ser variavel de estado -- string compare*/
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [categories, setCategories] = useState([]);
