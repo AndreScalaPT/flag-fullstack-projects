@@ -5,7 +5,7 @@ export default function HeroBanner() {
         <img
           src="/public/imgs/hero/HeroImg-1.png"
           alt="Banner Contacto"
-          className="w-full h-1vh object-cover rotate-x-180"
+          className="w-full h-screen object-cover rotate-x-180"
         />
         <h2 className="absolute inset-0 flex items-center justify-center text-6xl font-bold tracking-[0.3em] uppercase">
           Companhia de Teatro Água Corrente de Ovar

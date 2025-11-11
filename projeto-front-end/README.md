@@ -1,16 +1,59 @@
-# React + Vite
+# 🎭 CONTACTO — Companhia de Teatro Água Corrente de Ovar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
+![Tech](https://img.shields.io/badge/feito_em-React%20%2B%20Vite%20%2B%20Tailwind-blue)
+![License](https://img.shields.io/badge/licença-privada-lightgrey)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧾 Sobre o Projeto
 
-## React Compiler
+**CONTACTO** é uma companhia de teatro com forte presença cultural em Ovar, Portugal, dedicada à criação, promoção e dinamização das artes performativas desde 1983.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto consiste na **criação de uma landing page moderna, responsiva e envolvente**, capaz de traduzir visualmente o espírito artístico e a energia criativa da companhia.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Objetivos Principais
+
+- Reforçar a **presença digital** da companhia através de um website acessível e moderno.
+- Comunicar de forma clara as **principais áreas**: Historial, Notícias, Produções, Iniciativas, Atividades e Contactos.
+- Integrar uma **estética teatral contemporânea** com tipografia marcante, imagens de alta resolução e contraste visual.
+- Criar uma **estrutura escalável**, pronta para receber novas secções e conteúdos no futuro.
+
+---
+
+## ✨ Destaques Técnicos
+
+- ⚛️ **React + Vite** para um front-end leve e rápido.
+- 🎨 **TailwindCSS + DaisyUI** para uma estilização fluida e moderna.
+- 🧱 Estrutura modular de componentes (`HeroBanner`, `MainNav`, `EmCenaSection`, `JournalSection`, etc.).
+- 📱 **Design 100% responsivo**, com comportamento adaptado a mobile, tablet e desktop.
+- 🧰 Preparado para integração futura com APIs dinâmicas (notícias, produções e eventos).
+
+---
+
+## 🌐 Contexto e Identidade
+
+A CONTACTO – Companhia de Teatro Água Corrente de Ovar é uma instituição cultural de referência, fundada em **1983**, que mantém viva a paixão pelo teatro e pela criação artística.  
+A sua missão é **levar o palco à comunidade**, promovendo a cultura e a expressão artística como pilares fundamentais da identidade vareira.
+
+📍 Localização: _Ovar, Portugal_  
+📧 Contacto: [contacto.corrente@gmail.com](mailto:contacto.corrente@gmail.com)  
+🌍 Website: [andrescala.pt/contacto](https://andrescala.pt/contacto)
+
+---
+
+## 💡 Visão
+
+> “O teatro é um espelho que reflete a alma da comunidade.  
+> Este website é o palco digital dessa alma.”
+
+---
+
+## 👨‍💻 Autor
+
+**André Scala**  
+📍 Desenvolvedor Web & UX Enthusiast  
+🌐 [andrescala.pt](https://andrescala.pt)  
+📧 [andrescalamail@gmail.com](mailto:andrescalamail@gmail.com)
