@@ -10,15 +10,6 @@ Inclui práticas em **HTML, CSS, JavaScript, React, Node.js, APIs, Git, e deploy
 
 ---
 
-## 📂 Estrutura do Repositório
-
-flag-fullstack-projects/
-├── react/                # Exercícios e componentes em React  
-├── PROJETO-FRONT-END/    # Projeto final (Landing Page Contacto)  
-└── README.md  
-
----
-
 ## 🧠 Objetivo
 > Consolidar conhecimentos adquiridos ao longo do curso, explorando a criação de interfaces modernas, desenvolvimento front-end e integração com back-end.
 
@@ -65,7 +56,7 @@ Entre os próximos tópicos e objetivos estão:
 **André Scala**  
 📍 Desenvolvedor Web & UX Enthusiast  
 🌐 [andrescala.pt](https://andrescala.pt)  
-📧 [andrescalamail@gmail.com](mailto:andrescalamail@gmail.com)
+📧 [geral@andrescala.pt](mailto:geral@andrescala.pt)
 
 ---
 
