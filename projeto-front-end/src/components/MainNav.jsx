@@ -1,11 +1,13 @@
+import contactoLogo from "../imgs/contacto-logo.png";
+
 const sections = [
   { id: "inicio", label: "Início" },
-  { id: "Historial", label: "Historial" },
-  { id: "Notícias", label: "Notícias" },
-  { id: "Produções", label: "Produções" },
-  { id: "Iniciativas", label: "Iniciativas" },
-  { id: "Atividades", label: "Atividades" },
-  { id: "Contatos", label: "Contatos" },
+  { id: "historial", label: "Historial" },
+  { id: "noticias", label: "Notícias" },
+  { id: "producoes", label: "Produções" },
+  { id: "iniciativas", label: "Iniciativas" },
+  { id: "atividades", label: "Atividades" },
+  { id: "contactos", label: "Contactos" },
 ];
 
 function MainNav() {
@@ -14,9 +16,9 @@ function MainNav() {
       <header className="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-sm text-white">
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-15 h-15 flex items-center justify-center">
+            <div className="w-12 h-12 flex items-center justify-center">
               <img
-                src="/imgs/contacto-logo.png"
+                src={contactoLogo}
                 alt="Logo CONTACTO"
                 className="w-full h-full object-contain"
               />
