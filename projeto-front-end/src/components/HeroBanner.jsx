@@ -1,19 +1,26 @@
 export default function HeroBanner() {
   return (
-    <>
-      <section id="inicio" className="pt-20 relative text-center text-white">
-        <img
-          src="/public/imgs/hero/HeroImg-1.png"
-          alt="Banner Contacto"
-          className="w-full h-screen object-cover rotate-x-180"
-        />
-        <h2 className="absolute inset-0 flex items-center justify-center text-6xl font-bold tracking-[0.3em] uppercase">
+    <section
+      id="inicio"
+      className="relative text-center text-white flex flex-col items-center justify-end h-screen"
+    >
+      <img
+        src="/imgs/hero/HeroImg-1.png"
+        alt="Banner Contacto"
+        className="absolute inset-0 w-full h-full object-cover -z-10 rotate-x-180"
+      />
+
+      <div className="absolute inset-0 bg-black/30 -z-10" />
+
+      <div className="mb-0 flex flex-col items-center space-y-2">
+        <h2 className="text-base font-bold tracking-[0.3em] uppercase">
           Companhia de Teatro Água Corrente de Ovar
         </h2>
-        <h1 className="absolute inset-0 flex items-center justify-center text-6xl font-bold tracking-[0.3em]">
+
+        <h1 className="text-8xl md:text-9xl font-bold tracking-[0.3em]">
           CONTACTO
         </h1>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

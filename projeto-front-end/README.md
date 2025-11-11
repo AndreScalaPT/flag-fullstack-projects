@@ -40,7 +40,7 @@ A sua missão é **levar o palco à comunidade**, promovendo a cultura e a expre
 
 📍 Localização: _Ovar, Portugal_  
 📧 Contacto: [contacto.corrente@gmail.com](mailto:contacto.corrente@gmail.com)  
-🌍 Website: [andrescala.pt/contacto](https://contactovar.com)
+🌍 Website: [contactovar.com](https://contactovar.com)
 
 ---
 
