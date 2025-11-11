@@ -40,7 +40,7 @@ A sua missão é **levar o palco à comunidade**, promovendo a cultura e a expre
 
 📍 Localização: _Ovar, Portugal_  
 📧 Contacto: [contacto.corrente@gmail.com](mailto:contacto.corrente@gmail.com)  
-🌍 Website: [andrescala.pt/contacto](https://andrescala.pt/contacto)
+🌍 Website: [andrescala.pt/contacto](https://contactovar.com)
 
 ---
 
@@ -56,4 +56,4 @@ A sua missão é **levar o palco à comunidade**, promovendo a cultura e a expre
 **André Scala**  
 📍 Desenvolvedor Web & UX Enthusiast  
 🌐 [andrescala.pt](https://andrescala.pt)  
-📧 [andrescalamail@gmail.com](mailto:andrescalamail@gmail.com)
+📧 [geral@andrescala.pt](mailto:geral@andrescala.pt)
