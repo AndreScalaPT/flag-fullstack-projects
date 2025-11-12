@@ -1,12 +1,14 @@
 import HeroBanner from "../components/HeroBanner";
-import PartnersList from "../components/PartnersList";
+import InitiativesList from "../components/InitiativesList";
 
 export default function Home() {
   console.log("Home carregada");
   return (
     <div>
       <HeroBanner />
-      <PartnersList />
+      <div className="translate-y-[-30%] w-full flex justify-center">
+        <InitiativesList />
+      </div>
     </div>
   );
 }
