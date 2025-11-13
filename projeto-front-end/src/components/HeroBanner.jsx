@@ -20,7 +20,7 @@ export default function HeroBanner() {
           Companhia de Teatro Água Corrente de Ovar
         </h2>
 
-        <h1 className="font-extrabold tracking-[0.25em] text-[clamp(3rem,11vw,7rem)] leading-[0.9] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
+        <h1 className="font-extrabold tracking-[0.25em] text-[clamp(3rem,11vw,7rem)] leading-[0.9] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] mb-[3vh] sm:mb-[3vh] md:mb-[1vh] lg:mb-[1vh] hero-adjust">
           CONTACTO
         </h1>
       </div>

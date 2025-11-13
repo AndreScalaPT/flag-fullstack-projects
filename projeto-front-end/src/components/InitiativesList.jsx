@@ -21,7 +21,7 @@ export default function InitiativesList() {
   ];
 
   return (
-    <section className="mx-auto w-[90%] max-w-5xl bg-white text-black rounded-2xl shadow-xl py-8 px-18 flex justify-center items-center max-h-27 overflow-hidden">
+    <section className="mx-auto w-[90%] max-w-5xl bg-white text-black rounded-2xl shadow-xl py-8 px-18 flex justify-center items-center overflow-hidden">
       <ul className="flex flex-wrap justify-between items-center gap-x-6 gap-y-3 w-full">
         {initiatives.map((item, i) => (
           <li key={i} className="flex items-center justify-center">
