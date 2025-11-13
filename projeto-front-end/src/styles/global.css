@@ -16,3 +16,15 @@ body {
     }
   }
 }
+
+/* * * * TÍTULOS * * * */
+@layer components {
+  .section-title {
+    @apply text-center text-gray-700 font-bold uppercase tracking-[0.15em] text-2xl sm:text-2xl relative pb-2;
+  }
+
+  .section-title::after {
+    content: "";
+    @apply block w-24 sm:w-62 h-px bg-gray-400 mx-auto mt-2;
+  }
+}
