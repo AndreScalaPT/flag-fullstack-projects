@@ -12,7 +12,7 @@ export default function Home() {
         <InitiativesList />
       </div>
       <JournalCardList />
-      {/*     <OnStage /> */}
+      <OnStage />
     </div>
   );
 }

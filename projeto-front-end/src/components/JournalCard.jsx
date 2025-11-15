@@ -1,17 +1,17 @@
+import newsCover from "../imgs/productions/prod-um-inimigo-do-povo.jpg";
+
 export default function JournalCard() {
   return (
-    <div className="flex flex-col sm:flex-row bg-base-100 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden w-full">
-      {/* Imagem */}
-      <figure className="sm:w-1/5 w-full h-52 sm:h-auto shrink-0">
+    <div className="flex flex-col lg:flex-row bg-base-100 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden w-full">
+      <figure className="lg:w-1/5 w-full h-52 lg:h-auto shrink-0">
         <img
-          src="../prod-um-inimigo-do-povo.jpg"
+          src={newsCover}
           alt="Um inimigo do povo"
-          className="w-full h-full object-cover sm:object-contain"
+          className="w-full h-full object-cover lg:object-contain"
         />
       </figure>
 
-      {/* Conteúdo */}
-      <div className="flex flex-col justify-between p-4 sm:p-6 text-neutral-800 flex-1">
+      <div className="flex flex-col justify-between p-4 lg:p-6 text-neutral-800 flex-1">
         <div>
           <div className="flex justify-between items-start">
             <span className="text-sm font-semibold text-neutral-600">
@@ -19,7 +19,7 @@ export default function JournalCard() {
             </span>
           </div>
 
-          <h2 className="text-lg sm:text-xl font-semibold leading-snug mt-1">
+          <h2 className="text-lg lg:text-xl font-semibold leading-snug mt-1">
             Contacto estreia “Um inimigo do povo”, de Henrik Ibsen
           </h2>
 
@@ -32,10 +32,10 @@ export default function JournalCard() {
 
         <div className="flex justify-between items-center mt-3">
           <div className="flex gap-2">
-            <div className="badge badge-outline text-xs sm:text-sm">
+            <div className="badge badge-outline text-xs lg:text-sm">
               Produções
             </div>
-            <div className="badge badge-outline text-xs sm:text-sm">
+            <div className="badge badge-outline text-xs lg:text-sm">
               Notícias
             </div>
           </div>

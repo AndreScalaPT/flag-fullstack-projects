@@ -15,12 +15,12 @@ export default function HeroBanner() {
 
       <div className="absolute inset-0 bg-black/30 -z-10" />
 
-      <div className="mb-[6vh] flex flex-col items-center space-y-[clamp(0.5rem,2vw,1.5rem)] px-6">
-        <h2 className="font-medium text-[clamp(0.65rem,1.5vw,1.2rem)] uppercase tracking-[0.35em] text-neutral-300">
+      <div className="translate-y-[-2.5em] flex flex-col items-center )]">
+        <h2 className="font-medium text-[clamp(0.70rem,1.5vw,1.2rem)] uppercase tracking-[0.35em] text-neutral-300">
           Companhia de Teatro Água Corrente de Ovar
         </h2>
 
-        <h1 className="font-extrabold tracking-[0.25em] text-[clamp(3rem,11vw,7rem)] leading-[0.9] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] mb-[3vh] sm:mb-[3vh] md:mb-[1vh] lg:mb-[1vh] hero-adjust">
+        <h1 className="font-extrabold tracking-[0.25em] text-[clamp(3rem,11vw,7rem)] text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] mb-[3vh] sm:mb-[3vh] md:mb-[1vh] lg:mb-[1vh]">
           CONTACTO
         </h1>
       </div>

@@ -6,17 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-/* * * * MEDIA QUERIES * * * */
-
-/* Garantir margem entre CONTACTO e a caixa das iniciativas quando em landscape */
-@layer utilities {
-  @media (orientation: landscape) {
-    .hero-adjust {
-      margin-bottom: 8vh !important;
-    }
-  }
-}
-
 /* * * * TÍTULOS * * * */
 @layer components {
   .section-title {
