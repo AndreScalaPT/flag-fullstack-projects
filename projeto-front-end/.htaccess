@@ -1,0 +1,12 @@
+# React Router SPA Fix – PTisp / cPanel
+RewriteEngine On
+RewriteBase /projeto-front-end/
+
+# Se o ficheiro existir, entrega-o normalmente
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Caso contrário, envia tudo para index.html
+RewriteRule . /projeto-front-end/index.html [L]

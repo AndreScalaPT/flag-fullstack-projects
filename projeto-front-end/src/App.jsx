@@ -1,23 +1,34 @@
-import { Route, Switch, Router } from "wouter";
-import MainNav from "./components/MainNav";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainNav from "./components/MainNav"; // invocar a pasta
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
+
+import Home from "./pages/HomePage";
+import Historial from "./pages/HistoricalPage";
+import Noticias from "./pages/NewsPage";
+import Producoes from "./pages/ProductionsPage";
+import Iniciativas from "./pages/InitiativesPage";
+import Atividades from "./pages/ActivitiesPage";
+import Contactos from "./pages/ContactsPage";
 
 function App() {
-  // Detecta automaticamente se está em desenvolvimento ou build
-  const base =
-    import.meta.env.MODE === "development" ? "" : "/projeto-front-end";
-
   return (
-    <>
-      <Router base={base}>
-        <MainNav />
-        <Switch>
-          <Route path="/" component={Home} />
-        </Switch>
-        <Footer />
-      </Router>
-    </>
+    <BrowserRouter basename="/projeto-front-end">
+      <MainNav />
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/historial" element={<Historial />} />
+          <Route path="/news" element={<Noticias />} />
+          <Route path="/productions" element={<Producoes />} />
+          <Route path="/initiatives" element={<Iniciativas />} />
+          <Route path="/activities" element={<Atividades />} />
+          <Route path="/contacts" element={<Contactos />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
 

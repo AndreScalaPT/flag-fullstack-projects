@@ -4,7 +4,6 @@ import JournalCardList from "../components/JournalCardList";
 import OnStage from "../components/OnStage";
 
 export default function Home() {
-  console.log("Home carregada");
   return (
     <div>
       <HeroBanner />
