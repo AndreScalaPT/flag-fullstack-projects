@@ -1,34 +1,67 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* Reset e fonte */
 html,
 body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
-/* * * * TÍTULOS * * * */
+/* ================================
+   COMPONENTS (compatíveis com DaisyUI)
+================================ */
 @layer components {
+  /* Section Title */
   .section-title {
-    @apply text-center text-gray-700 font-bold uppercase tracking-[0.15em] text-2xl sm:text-2xl relative pb-2;
+    @apply text-center font-bold uppercase tracking-[0.15em] text-2xl pb-2 relative;
+    color: var(--fallback-c, oklch(var(--bc) / 1));
   }
 
   .section-title::after {
     content: "";
-    @apply block w-24 sm:w-62 h-px bg-gray-400 mx-auto mt-2;
+    @apply block w-24 h-px mx-auto mt-2;
+    background-color: var(--fallback-p, oklch(var(--p) / 1));
+  }
+
+  /* Navigation link */
+  .nav-link {
+    @apply transition font-light tracking-wide;
+    color: var(--fallback-c, oklch(var(--bc) / 1));
+  }
+
+  /* Underline hover */
+  .nav-underline {
+    position: relative;
+  }
+
+  .nav-underline::after {
+    content: "";
+    @apply absolute left-0 rounded-sm transition-all duration-300;
+    background-color: currentColor;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+  }
+
+  .nav-underline:hover::after {
+    width: 100%;
+  }
+
+  /* Social icons animation */
+  .icon-animation {
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
   }
 }
 
-.nav-link {
-  @apply transition font-light tracking-wide hover:text-sky-400;
-}
+/* ================================
+   ANIMATIONS
+================================ */
 
-.icon-link {
-  @apply transition cursor-pointer hover:text-sky-400;
-}
-
-/* * * * MODAL ANIMAÇÕES * * * */
-
-@keyframes fadeIn {
+@keyframes fadeInBackdrop {
   from {
     opacity: 0;
   }
@@ -36,29 +69,25 @@ body {
     opacity: 1;
   }
 }
-
 .animate-fadeIn {
-  animation: fadeIn 0.3s ease-out forwards;
+  animation: fadeInBackdrop 0.35s ease-out forwards;
 }
 
-/* ESCALA DO MODAL */
 @keyframes scaleIn {
   from {
     opacity: 0;
-    transform: scale(0.85);
+    transform: scale(0.8);
   }
   to {
     opacity: 1;
     transform: scale(1);
   }
 }
-
 .animate-scaleIn {
   animation: scaleIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* ANIMAÇÃO DO MENU MOBILE */
-@keyframes fadeIn {
+@keyframes fadeDown {
   from {
     opacity: 0;
     transform: translateY(-10px);
@@ -68,7 +97,6 @@ body {
     transform: translateY(0);
   }
 }
-
-.animate-fadeIn {
-  animation: fadeIn 0.25s ease-out forwards;
+.animate-fadeDown {
+  animation: fadeDown 0.25s ease-out forwards;
 }

@@ -1,19 +1,31 @@
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si";
 
 export default function IconGroup({ scrolled }) {
-  const base = scrolled
-    ? "text-slate-700 hover:text-slate-900"
-    : "text-white hover:text-sky-300";
+  const baseColor = scrolled ? "text-slate-700" : "text-white";
 
   return (
     <div className="flex items-center gap-4">
-      <a href="#" className={base}>
+      {/* Facebook */}
+      <a
+        href="#"
+        className={`${baseColor} transition-colors duration-300 hover:text-[#1877F2]`}
+      >
         <SiFacebook className="w-5 h-5" />
       </a>
-      <a href="#" className={base}>
+
+      {/* Instagram */}
+      <a
+        href="#"
+        className={`${baseColor} transition-colors duration-300 hover:text-[#E4405F]`}
+      >
         <SiInstagram className="w-5 h-5" />
       </a>
-      <a href="#" className={base}>
+
+      {/* YouTube */}
+      <a
+        href="#"
+        className={`${baseColor} transition-colors duration-300 hover:text-[#FF0000]`}
+      >
         <SiYoutube className="w-5 h-5" />
       </a>
     </div>

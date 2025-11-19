@@ -14,7 +14,7 @@ export default function HeroBanner() {
       />
 
       {/* Overlay escuro */}
-      <div className="absolute inset-0 bg-black/40 z-10" />
+      {/*       <div className="absolute inset-0 bg-black/40 z-0" />*/}
 
       {/* Texto */}
       <div className="relative z-20 mb-[8vh] flex flex-col items-center">

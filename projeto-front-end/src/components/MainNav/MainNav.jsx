@@ -29,12 +29,12 @@ export default function MainNav() {
 
   return (
     <>
-      {/* NAVBAR FIXA */}
+      {/* NAVBAR */}
       <header
-        className={`fixed top-0 left-0 w-full z-40 transition-all duration-500
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)]
         ${
           scrolled
-            ? "bg-white/90 backdrop-blur shadow-md"
+            ? "bg-white/90 backdrop-blur-xl shadow-lg"
             : "bg-black/40 backdrop-blur-sm"
         }`}
       >
@@ -43,14 +43,11 @@ export default function MainNav() {
           <Link to="/">
             <img
               src={scrolled ? logoBlue : logoWhite}
-              className={`transition-all duration-500 ${
-                scrolled ? "h-10" : "h-14"
-              }`}
-              alt="Contacto"
+              className="h-10 transition-all duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)]"
             />
           </Link>
 
-          {/* MENU DESKTOP (≥ lg) */}
+          {/* MENU DESKTOP */}
           <nav className="hidden lg:flex gap-8 font-light uppercase tracking-wide">
             <NavItem to="/" scrolled={scrolled} label="Entrada" />
             <NavItem to="/historial" scrolled={scrolled} label="Historial" />
@@ -65,10 +62,12 @@ export default function MainNav() {
             <NavItem to="/contacts" scrolled={scrolled} label="Contactos" />
           </nav>
 
-          {/* DIREITA DESKTOP: REDES + LOGIN */}
+          {/* DESKTOP: AÇÕES */}
           <div className="hidden lg:flex items-center gap-6">
+            {/* REDES SOCIAIS */}
             <IconGroup scrolled={scrolled} />
 
+            {/* LOGIN */}
             <button
               onClick={openLogin}
               className={`p-2 rounded-full transition-all duration-300 ${
@@ -81,8 +80,8 @@ export default function MainNav() {
             </button>
           </div>
 
-          {/* DIREITA MOBILE: APENAS HAMBURGER */}
-          <div className="flex lg:hidden items-center">
+          {/* MOBILE: HAMBURGER */}
+          <div className="flex lg:hidden items-center gap-4">
             <button
               onClick={() => setMobileOpen(true)}
               className="text-white text-3xl"
@@ -104,7 +103,7 @@ export default function MainNav() {
             ✕
           </button>
 
-          {/* LINKS NAVEGAÇÃO */}
+          {/* LINKS */}
           <nav className="mt-24 flex flex-col items-center gap-8 text-white text-2xl tracking-wide">
             <Link to="/" onClick={() => setMobileOpen(false)}>
               Entrada
@@ -129,7 +128,7 @@ export default function MainNav() {
             </Link>
           </nav>
 
-          {/* BOTÃO LOGIN DENTRO DO MENU MOBILE (OPCIONAL MAS ÚTIL) */}
+          {/* BOTÃO LOGIN */}
           <div className="mt-10 px-8">
             <button
               onClick={() => {
@@ -144,7 +143,7 @@ export default function MainNav() {
         </div>
       )}
 
-      {/* MODAL LOGIN (POR CIMA DE TUDO) */}
+      {/* LOGIN MODAL */}
       {loginOpen && <LoginModal closeModal={closeLogin} />}
     </>
   );
