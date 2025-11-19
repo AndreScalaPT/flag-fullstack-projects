@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Contacto estreia “Um inimigo do povo”, de Henrik Ibsen",
+    "date": "06 Novembro 2025 21:11",
+    "categories": ["Produções"],
+    "excerpt": "A Contacto estreia no próximo dia 15 de novembro, sábado, pelas 21H45 \"Um inimigo do povo\", de Henrik Ibsen, com encenação de Pedro Damião. A peça narra a história de Thomas Stockmann, que descobre que a água de uma estância termal, principal fonte de riqueza da sua cidade, está contaminada. Apesar das suas boas intenções, o médico é perseguido e tratado como inimigo pela população, que prefere ignorar a verdade em nome do lucro.",
+    "image": "./imgs/prod-um-inimigo-do-povo.jpg",
+    "link": "/noticias/contacto-estreia-um-inimigo-do-povo-de-henrik-ibsen"
+  },
+  {
+    "id": 2,
+    "title": "Festovar 2025",
+    "date": "15 Setembro 2025 22:09",
+    "categories": ["Notícias", "Festival"],
+    "excerpt": "De 3 de outubro a 15 de novembro vai decorrer a trigésima segunda edição do Festovar – Festival de Teatro de Ovar, em dois palcos: Casa da Contacto e Centro de Arte de Ovar. A edição deste ano tem a sessão de abertura marcada para sexta-feira dia 3 de outubro, pelas 21H30 na Casa da Contacto, em que será feita a inauguração da Sala Manuel Ramos Costa, um novo espaço onde vai estar em exposição permanente algum do seu espólio e obras e onde vamos dar a conhecer o troféu e a revista “Água Corrente” de 2025 bem como apresentar o programa oficial do evento na presença de amigos e convidados ligados aos Grupos por onde passou.",
+    "image": "./imgs/festovar-2025.jpg",
+    "link": "/noticias/festovar-2025"
+  },
+  {
+    "id": 3,
+    "title": "Contacto estreia “O mistério da biblioteca encantada”",
+    "date": "18 Maio 2025 17:53",
+    "categories": ["Produções"],
+    "excerpt": "A Contacto estreia no próximo dia 19 de maio, segunda-feira, \"O mistério da biblioteca encantada\", um original de Teresa Leite e Daniela Fula, com encenação da segunda. Três bibliotecárias cuidam de uma biblioteca mágica onde os livros ganham vida. Um dia, personagens importantes começam a desaparecer das histórias – o que pode causar o caos no mundo. Elas vão precisar de entrar nos livros para consertar o caos e resgatar personagens como o João, que se perdeu no topo do feijoeiro, a Cinderela, que não consegue encontrar os seus sapatinhos de cristal, e o Pinóquio que está prestes a transformar-se em madeira para sempre.",
+    "image": "./imgs/o-misterio-da-biblioteca-encantada.jpg",
+    "link": "/noticias/contacto-estreia-o-misterio-da-biblioteca-encantada"
+  },
+  {
+    "id": 4,
+    "title": "Festinfância 2025 – XV Festa do Teatro para a Infância",
+    "date": "11 Maio 2025 10:46",
+    "categories": ["Notícias", "Festival"],
+    "excerpt": "De 17 a 30 de maio a Contacto promove a décima quinta edição da Festinfância – Festa do teatro para a Infância numa parceria com a União de Freguesias de Ovar, S. João, Arada e S. Vicente e com a colaboração do Agrupamento de Escolas de Ovar, contando com o apoio do Município de Ovar. O programa deste ano inclui a estreia de uma nova produção pela Contacto – O mistério da biblioteca encantada de Teresa Leite e Daniela Fula e duas produções oficinais: D. Quixotito: Sonhar é preciso e Alice e o País dentro de nós de Daniela Fula. Estão previstos 26 espetáculos para o público escolar (à semana) cobrindo cerca de vinte estabelecimentos de ensino e público em geral (aos fins-de-semana).",
+    "image": "./imgs/festinfancia-2025.jpg",
+    "link": "/noticias/festinfancia-2025-xv-festa-do-teatro-para-a-infancia"
+  }
+]

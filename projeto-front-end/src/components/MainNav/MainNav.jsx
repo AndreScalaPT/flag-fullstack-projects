@@ -35,7 +35,7 @@ export default function MainNav() {
         ${
           scrolled
             ? "bg-white/90 backdrop-blur-xl shadow-lg"
-            : "bg-black/40 backdrop-blur-sm"
+            : "bg-black/60 backdrop-blur-sm"
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
@@ -48,7 +48,7 @@ export default function MainNav() {
           </Link>
 
           {/* MENU DESKTOP */}
-          <nav className="hidden lg:flex gap-8 font-light uppercase tracking-wide">
+          <nav className="hidden lg:flex gap-8 font-light tracking-wide">
             <NavItem to="/" scrolled={scrolled} label="Entrada" />
             <NavItem to="/historial" scrolled={scrolled} label="Historial" />
             <NavItem to="/news" scrolled={scrolled} label="Notícias" />

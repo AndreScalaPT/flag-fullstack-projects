@@ -7,12 +7,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* ================================
-   COMPONENTS (compatíveis com DaisyUI)
-================================ */
+/* COMPONENTS */
 @layer components {
   /* Section Title */
   .section-title {
@@ -57,9 +55,7 @@ body {
   }
 }
 
-/* ================================
-   ANIMATIONS
-================================ */
+/* ANIMATIONS */
 
 @keyframes fadeInBackdrop {
   from {

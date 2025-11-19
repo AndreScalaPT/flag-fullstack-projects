@@ -5,7 +5,7 @@ export default function NavItem({ to, scrolled, label }) {
     <Link
       to={to}
       className={`
-        group relative transition-all duration-300 text-sm tracking-widest
+        group relative transition-all duration-300 text-sm tracking-widest font-normal
         ${
           scrolled
             ? "text-slate-700 hover:text-slate-900"
