@@ -1,4 +1,4 @@
-import onStageBanner from "../imgs/banners/onStageBanner.jpg";
+import onStageBanner from "/imgs/banners/onStageBanner.jpg";
 
 export default function OnStage() {
   return (

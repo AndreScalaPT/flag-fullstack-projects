@@ -1,4 +1,4 @@
-import heroImg from "../imgs/hero/HeroImg-1.png";
+import heroImg from "/imgs/hero/HeroImg-1.png";
 
 export default function HeroBanner() {
   return (

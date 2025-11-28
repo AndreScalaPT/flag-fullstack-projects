@@ -1,11 +1,16 @@
-export default function NewsCard({
-  title,
-  date,
-  categories,
-  excerpt,
-  image,
-  link,
-}) {
+import { Link } from "react-router-dom";
+
+const buildNewsRoute = (link = "") => {
+  const slug = link
+    .split("/")
+    .filter(Boolean)
+    .pop();
+  return slug ? `/news/${slug.toLowerCase()}` : "/news";
+};
+
+export default function NewsCard({ title, date, categories, excerpt, image, link }) {
+  const newsPath = buildNewsRoute(link);
+
   return (
     <div className="flex flex-col lg:flex-row bg-base-100 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden p-4 lg:p-6 h-full">
       {/* IMAGEM */}
@@ -47,12 +52,9 @@ export default function NewsCard({
           </div>
 
           {/* LER MAIS */}
-          <a
-            href={link}
-            className="text-sm font-semibold text-neutral-800 hover:underline"
-          >
+          <Link to={newsPath} className="text-sm font-semibold text-neutral-800 hover:underline">
             ler mais…
-          </a>
+          </Link>
         </div>
       </div>
     </div>

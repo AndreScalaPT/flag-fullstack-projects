@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoWhite from "../../imgs/contacto-logo-white.png";
+import logoWhite from "/imgs/contacto-logo-white.png";
 
 export default function LoginModal({ closeModal }) {
   return (

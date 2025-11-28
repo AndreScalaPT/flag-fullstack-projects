@@ -6,7 +6,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /*   overflow-x: hidden;
+  overflow-y: auto; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -96,3 +97,17 @@ body {
 .animate-fadeDown {
   animation: fadeDown 0.25s ease-out forwards;
 }
+
+/* ==============================
+   tira o scroll
+   ============================== */
+
+/* #app-scroll-container {
+  height: 100dvh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+#app-scroll-container::-webkit-scrollbar {
+  display: none;
+} */

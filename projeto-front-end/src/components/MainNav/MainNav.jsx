@@ -5,8 +5,8 @@ import NavItem from "./NavItem";
 import IconGroup from "./IconGroup";
 import LoginModal from "./LoginModal";
 
-import logoWhite from "../../imgs/contacto-logo-white.png";
-import logoBlue from "../../imgs/contacto-logo-blue.png";
+import logoWhite from "/imgs/contacto-logo-white.png";
+import logoBlue from "/imgs/contacto-logo-blue.png";
 
 import { MdPerson } from "react-icons/md";
 
@@ -16,12 +16,24 @@ export default function MainNav() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
+    const scrollContainer = document.querySelector("#app-scroll-container");
+    if (!scrollContainer) return;
+
     const onScroll = () => {
-      const limit = window.innerHeight * 0.9;
-      setScrolled(window.scrollY > limit);
+      const isHomepage = window.location.pathname === "/";
+      if (!isHomepage) {
+        setScrolled(true); // em todas as outras páginas mantém-se sólido
+        return;
+      }
+
+      // só na home muda com scroll
+      setScrolled(scrollContainer.scrollTop > window.innerHeight * 0.95);
     };
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+
+    scrollContainer.addEventListener("scroll", onScroll);
+    onScroll(); // corre 1x ao carregar
+
+    return () => scrollContainer.removeEventListener("scroll", onScroll);
   }, []);
 
   const openLogin = () => setLoginOpen(true);
@@ -50,7 +62,7 @@ export default function MainNav() {
           {/* MENU DESKTOP */}
           <nav className="hidden lg:flex gap-8 font-light tracking-wide">
             <NavItem to="/" scrolled={scrolled} label="Entrada" />
-            <NavItem to="/historial" scrolled={scrolled} label="Historial" />
+            <NavItem to="/history" scrolled={scrolled} label="Historial" />
             <NavItem to="/news" scrolled={scrolled} label="Notícias" />
             <NavItem to="/productions" scrolled={scrolled} label="Produções" />
             <NavItem
@@ -108,7 +120,7 @@ export default function MainNav() {
             <Link to="/" onClick={() => setMobileOpen(false)}>
               Entrada
             </Link>
-            <Link to="/historial" onClick={() => setMobileOpen(false)}>
+            <Link to="/history" onClick={() => setMobileOpen(false)}>
               Historial
             </Link>
             <Link to="/news" onClick={() => setMobileOpen(false)}>

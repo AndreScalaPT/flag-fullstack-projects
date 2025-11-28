@@ -1,35 +1,58 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainNav from "./components/MainNav"; // invocar a pasta
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import MainNav from "./components/MainNav";
 import Footer from "./components/Footer";
 
-import Home from "./pages/HomePage";
-import Historial from "./pages/HistoricalPage";
-import Noticias from "./pages/NewsPage";
-import Producoes from "./pages/ProductionsPage";
-import Iniciativas from "./pages/InitiativesPage";
-import Atividades from "./pages/ActivitiesPage";
-import Contactos from "./pages/ContactsPage";
+// Pages
+import HomePage from "./pages/HomePage";
+import HistoryPage from "./pages/HistoryPage";
+import NewsPage from "./pages/news/NewsPage";
+import ProductionsPage from "./pages/ProductionsPage";
+import InitiativesPage from "./pages/InitiativesPage";
+import ActivitiesPage from "./pages/ActivitiesPage";
+import ContactsPage from "./pages/ContactsPage";
+import NewsPageList from "./pages/news/NewsPageList";
 
-function App() {
+// =============================
+//  WRAPPER para aplicar scroll
+// =============================
+function AppContent() {
+  const location = useLocation();
+
+  // HOME não tem padding-top para não estragar o HERO
+  const isHome =
+    location.pathname === "/" || location.pathname === "/projeto-front-end/";
+
   return (
-    <BrowserRouter basename="/projeto-front-end">
+    <>
       <MainNav />
 
-      <main>
+      <main
+        id="app-scroll-container"
+        style={{
+          paddingTop: isHome ? "0px" : "78px", // 👈 HOME sem offset / resto normal
+        }}
+      >
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/historial" element={<Historial />} />
-          <Route path="/news" element={<Noticias />} />
-          <Route path="/productions" element={<Producoes />} />
-          <Route path="/initiatives" element={<Iniciativas />} />
-          <Route path="/activities" element={<Atividades />} />
-          <Route path="/contacts" element={<Contactos />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/history" element={<HistoryPage />} />
+          <Route path="/news" element={<NewsPageList />} />
+          <Route path="/news/:slug" element={<NewsPage />} />
+          <Route path="/productions" element={<ProductionsPage />} />
+          <Route path="/initiatives" element={<InitiativesPage />} />
+          <Route path="/activities" element={<ActivitiesPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
       </main>
 
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
+  );
+}
