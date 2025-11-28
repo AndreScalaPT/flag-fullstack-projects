@@ -1,0 +1,1041 @@
+{
+  "pagina": {
+    "titulo": "Historial da CONTACTO",
+    "subtitulo": "CONTACTO – Companhia de Teatro Água Corrente de Ovar"
+  },
+
+  "historia": {
+    "titulo": "CONTACTO, 42 ANOS DE TEATRO",
+    "texto": "A CONTACTO nasceu a 22 de setembro de 1983, data em que se apresentou ao público vareiro com uma das mais conhecidas e carismáticas peças de Bernardo Santareno, «A Promessa». Inicialmente sediada no salão paroquial São Cristóvão, inscrita e apoiada pelo Inatel de Aveiro, a Contacto, ou melhor, o então Grupo de Teatro Água Corrente de Ovar, vingou num meio pouco habituado ao dito teatro intencional graças aos esforços e à verticalidade dos seus fundadores e, principalmente, à dedicação e à disponibilidade de todos os seus membros, atores, atrizes e demais colaboradores. Em 1985, ao abrigo de um protocolo estabelecido com o Orfeão de Ovar, a Contacto passou a funcionar no secular Teatro Ovarense (que os Bombeiros Voluntários mandaram demolir em 2000), onde permaneceu durante cerca de dez anos, como Secção de Teatro da referida coletividade, protocolo que viria a denunciar pouco tempo depois. O ano de 1995 foi muito complicado para a Contacto que se viu obrigada, por ordem dos Bombeiros Voluntários, a abandonar o velho edifício e a procurar nova morada. A resolução deste problema passou pela vontade e compreensão da benemérita Família Sá que, sensível a esta e outras iniciativas culturais, colocou à disposição da Contacto a sua casa na Rua Alexandre Herculano n.º 46/48, onde continuámos a desenvolver muitos dos nossos projetos, durante quase sete anos. Um desses projetos e talvez o mais importante foi concretizado precisamente em 2001, com a aquisição da sede da Companhia, na Rua Dr. José Falcão, n.º 239, por dezanove mil contos. Tal só foi possível com os apoios financeiros do Instituto Português da Juventude/RNAJ, da Câmara Municipal e da Junta de Freguesia de Ovar, com os donativos recebidos de muitos amigos e colaboradores e com um empréstimo bancário contraído pela Direção de então. Fundada sob a denominação de Grupo de Teatro Água Corrente de Ovar, foi a 18 de Maio de 1993, data da sua legalização no Cartório Notarial de Ovar, que a alteração de nomes se verificou, passando a chamar-se CONTACTO – Companhia de Teatro Água Corrente de Ovar."
+  },
+
+  "producoes": [
+    {
+      "titulo": "A Promessa",
+      "autor": "Bernardo Santareno",
+      "ano": 1983,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Farruncha",
+      "autor": "Jaime Gralheiro",
+      "ano": 1984,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Senda Luz",
+      "autor": null,
+      "ano": 1985,
+      "categoria": "recital"
+    },
+    {
+      "titulo": "Minha Pobre Boneca",
+      "autor": "Maria Alvarez de Burgos",
+      "ano": 1985,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Lanterna Mágica",
+      "autor": "Manuel Ramos Costa",
+      "ano": 1986,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Nacosdarte",
+      "autor": null,
+      "ano": 1987,
+      "categoria": "recital"
+    },
+    {
+      "titulo": "Ciclo de Teatro em Ovar",
+      "autor": null,
+      "ano": 1987,
+      "categoria": "iniciativa"
+    },
+    {
+      "titulo": "António Marinheiro",
+      "autor": "Bernardo Santareno",
+      "ano": 1987,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "João Pateta",
+      "autor": null,
+      "ano": 1989,
+      "categoria": "fantoches"
+    },
+    {
+      "titulo": "Mar",
+      "autor": "Miguel Torga",
+      "ano": 1990,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "João Ratão",
+      "autor": "Manuel Ramos Costa",
+      "ano": 1990,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Recordar é Viver",
+      "autor": null,
+      "ano": 1992,
+      "categoria": "revista"
+    },
+    {
+      "titulo": "O Gebo e a Sombra",
+      "autor": "Raul Brandão",
+      "ano": 1993,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Pelicano",
+      "autor": "August Strindberg",
+      "ano": 1995,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Príncipe Feliz",
+      "autor": "Óscar Wilde",
+      "ano": 1996,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Restos",
+      "autor": "Bernardo Santareno",
+      "ano": 1996,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "As Troianas",
+      "autor": "Jean-Paul Sartre",
+      "ano": 1997,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "El-Rei Papão",
+      "autor": "José Jorge Letria",
+      "ano": 1998,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "O Rei Imaginário",
+      "autor": "Raul Brandão",
+      "ano": 1998,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Parda Flor Bela",
+      "autor": "Gil Vicente / Florbela Espanca",
+      "ano": 1999,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Todo o Mundo",
+      "autor": null,
+      "ano": 1999,
+      "categoria": "auto de moralidades"
+    },
+    {
+      "titulo": "Cavalo de Pau",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2000,
+      "categoria": "juvenil"
+    },
+    {
+      "titulo": "Guerra Santa",
+      "autor": "Luís de Sttau Monteiro",
+      "ano": 2000,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "As Espingardas da Mãe Carrar",
+      "autor": "Bertolt Brecht",
+      "ano": 2001,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Rico Par de Botas",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2001,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "O Santo Inquérito",
+      "autor": "Dias Gomes",
+      "ano": 2002,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Laçarote de Petiz Piparote",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2002,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Final Feliz",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2003,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Menina Júlia",
+      "autor": "August Strindberg",
+      "ano": 2003,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Tulipa Negra",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2004,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Casa de Bernarda Alba",
+      "autor": "Federico Garcia Lorca",
+      "ano": 2004,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Cavaleiro da Utopia",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2005,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Adorável Divórcio",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2005,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Lição",
+      "autor": "Eugène Ionesco",
+      "ano": 2006,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Abril em Flor",
+      "autor": null,
+      "ano": 2007,
+      "categoria": "iniciativa"
+    },
+    {
+      "titulo": "O Príncipe e a Andorinha",
+      "autor": null,
+      "ano": 2007,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "A Farsa de Mestre Pathelin",
+      "autor": "Desconhecido",
+      "ano": 2007,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Bela Princesa do Norte",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2008,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "O Auto da Alma",
+      "autor": "Gil Vicente",
+      "ano": 2008,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Max e Mila",
+      "autor": "Volker Ludwig",
+      "ano": 2009,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Armadilha para um homem só",
+      "autor": "Robert Thomas",
+      "ano": 2009,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Livro da Ilusão",
+      "autor": "Domingos Galamba",
+      "ano": 2010,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Blackout",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2010,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Loja dos Brinquedos",
+      "autor": "Marcelino Costa",
+      "ano": 2011,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Alguém terá de morrer",
+      "autor": "Luiz Francisco Rebello",
+      "ano": 2011,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Sopa de Pedra",
+      "autor": "Tradicional / Manuel Ramos Costa",
+      "ano": 2012,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Milena de Praga",
+      "autor": "José Jorge Letria",
+      "ano": 2012,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Play outra vez",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2012,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Doçuras e Travessuras",
+      "autor": "Teresa Leite",
+      "ano": 2013,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Prometo, não volta a acontecer!",
+      "autor": "Jorge Geraldo",
+      "ano": 2013,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Gato por Lebre",
+      "autor": "Georges Feydeau",
+      "ano": 2013,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Estórias Nossas",
+      "autor": "Pedro Poças / Leonor Morgado",
+      "ano": 2013,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Escolinha da Lélé",
+      "autor": "Teresa Leite",
+      "ano": 2014,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Cousas de Deus e do Diabo",
+      "autor": "Gil Vicente",
+      "ano": 2014,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Falsos Deuses",
+      "autor": "Rafael Polónia / Tanya Ruivo",
+      "ano": 2014,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "As Canseiras do Zé Padeiro",
+      "autor": "Teresa Leite",
+      "ano": 2015,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Cinderela",
+      "autor": "Teresa Leite",
+      "ano": 2015,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Enquanto a Cidade Dorme",
+      "autor": "Álvaro Magalhães",
+      "ano": 2015,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "A Cantora Careca",
+      "autor": "Eugène Ionesco",
+      "ano": 2015,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Barquinhos de Papel para Bakiri",
+      "autor": "Teresa Leite",
+      "ano": 2016,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "A Raiz e o Rouxinol",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2016,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Medeia",
+      "autor": "Mário Cláudio",
+      "ano": 2016,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Cavaleiro da Triste Figura",
+      "autor": "Teresa Leite",
+      "ano": 2016,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "O Avião que Tinha Medo das Alturas",
+      "autor": "Kátia Andrade",
+      "ano": 2017,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "João Pateta",
+      "autor": "Tradicional",
+      "ano": 2017,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "A Salvação de Lutero",
+      "autor": "Teresa Leite",
+      "ano": 2017,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Peixinho Dourado",
+      "autor": "Tradicional russo",
+      "ano": 2018,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Está aí alguém?",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2018,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Meu Caso",
+      "autor": "José Régio",
+      "ano": 2018,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Amigos Verdadeiros",
+      "autor": "José Ferreira",
+      "ano": 2019,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "A Bela Princesa do Norte (Teatro de Marionetas)",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2019,
+      "categoria": "marionetas"
+    },
+    {
+      "titulo": "Zé do Telhado",
+      "autor": "Helder Costa",
+      "ano": 2019,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Um Pedido de Casamento",
+      "autor": "Anton Tchekhov",
+      "ano": 2020,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Urso",
+      "autor": "Anton Tchekhov",
+      "ano": 2020,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Pranto de Maria Parda",
+      "autor": "Gil Vicente",
+      "ano": 2020,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Falar Verdade a Mentir",
+      "autor": "Almeida Garrett",
+      "ano": 2021,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Palhaço da Alegria",
+      "autor": "José Ferreira",
+      "ano": 2022,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Azul Colorido (Teatro de Marionetas)",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2022,
+      "categoria": "marionetas"
+    },
+    {
+      "titulo": "A Comédia da Urna",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2022,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Galo Cantor",
+      "autor": "Teresa Leite",
+      "ano": 2023,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "O Alçapão (Teatro de Marionetas)",
+      "autor": "Luís Ribeiro",
+      "ano": 2023,
+      "categoria": "marionetas"
+    },
+    {
+      "titulo": "O Inspetor Geral",
+      "autor": "Nicolai Gogol",
+      "ano": 2023,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Histórias do Velho Baú",
+      "autor": "Teresa Leite",
+      "ano": 2024,
+      "categoria": "infantil"
+    },
+    {
+      "titulo": "Casa de Bonecas",
+      "autor": "Henrik Ibsen",
+      "ano": 2024,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "Estou-me nas Tintas",
+      "autor": "Manuel Ramos Costa",
+      "ano": 2025,
+      "categoria": "teatro adulto"
+    },
+    {
+      "titulo": "O Mistério da Biblioteca Encantada",
+      "autor": "Teresa Leite / Daniela Fula",
+      "ano": 2025,
+      "categoria": "infantil"
+    }
+  ],
+
+  "eventos": [
+    {
+      "tipo": "Festovar",
+      "edicao": 1,
+      "ano": 1994,
+      "periodo": "05/11 a 03/12"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 2,
+      "ano": 1995,
+      "periodo": "21/10 a 18/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 3,
+      "ano": 1996,
+      "periodo": "19/10 a 23/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 4,
+      "ano": 1997,
+      "periodo": "11/10 a 22/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 5,
+      "ano": 1998,
+      "periodo": "17/10 a 28/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 6,
+      "ano": 1999,
+      "periodo": "15/10 a 27/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 7,
+      "ano": 2000,
+      "periodo": "13/10 a 25/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 8,
+      "ano": 2001,
+      "periodo": "12/10 a 24/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 9,
+      "ano": 2002,
+      "periodo": "11/10 a 23/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 10,
+      "ano": 2003,
+      "periodo": "21/09 a 22/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 11,
+      "ano": 2004,
+      "periodo": "08/10 a 27/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 13,
+      "ano": 2006,
+      "periodo": "14/10 a 25/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 14,
+      "ano": 2007,
+      "periodo": "12/10 a 01/12"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 15,
+      "ano": 2008,
+      "periodo": "26/09 a 08/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 16,
+      "ano": 2009,
+      "periodo": "09/10 a 28/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 17,
+      "ano": 2010,
+      "periodo": "08/10 a 27/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 18,
+      "ano": 2011,
+      "periodo": "07/10 a 26/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 19,
+      "ano": 2012,
+      "periodo": "12/10 a 24/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 20,
+      "ano": 2013,
+      "periodo": "11/10 a 23/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 21,
+      "ano": 2014,
+      "periodo": "10/10 a 22/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 22,
+      "ano": 2015,
+      "periodo": "09/10 a 21/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 23,
+      "ano": 2016,
+      "periodo": "07/10 a 19/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 24,
+      "ano": 2017,
+      "periodo": "13/10 a 25/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 25,
+      "ano": 2018,
+      "periodo": "12/10 a 24/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 26,
+      "ano": 2019,
+      "periodo": "11/10 a 23/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 27,
+      "ano": 2020,
+      "periodo": "10/10 a 21/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 28,
+      "ano": 2021,
+      "periodo": "08/10 a 20/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 29,
+      "ano": 2022,
+      "periodo": "07/10 a 19/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 30,
+      "ano": 2023,
+      "periodo": "22/09 a 18/11"
+    },
+    {
+      "tipo": "Festovar",
+      "edicao": 31,
+      "ano": 2024,
+      "periodo": "04/10 a 23/11"
+    },
+
+    { "tipo": "Festinfância", "edicao": 1, "ano": 2009 },
+    { "tipo": "Festinfância", "edicao": 2, "ano": 2010 },
+    { "tipo": "Festinfância", "edicao": 3, "ano": 2011 },
+    { "tipo": "Festinfância", "edicao": 4, "ano": 2012 },
+    { "tipo": "Festinfância", "edicao": 5, "ano": 2013 },
+    { "tipo": "Festinfância", "edicao": 6, "ano": 2014 },
+    { "tipo": "Festinfância", "edicao": 7, "ano": 2015 },
+    { "tipo": "Festinfância", "edicao": 8, "ano": 2016 },
+    { "tipo": "Festinfância", "edicao": 9, "ano": 2017 },
+    { "tipo": "Festinfância", "edicao": 10, "ano": 2018 },
+    { "tipo": "Festinfância", "edicao": 11, "ano": 2019 },
+    { "tipo": "Festinfância", "edicao": 12, "ano": 2022 },
+    { "tipo": "Festinfância", "edicao": 13, "ano": 2023 },
+    { "tipo": "Festinfância", "edicao": 14, "ano": 2024 },
+    { "tipo": "Festinfância", "edicao": 15, "ano": 2025 },
+
+    { "tipo": "Café Contacto", "ano": 2006 },
+    { "tipo": "Café Contacto", "ano": 2007 },
+    { "tipo": "Café Contacto", "ano": 2008 },
+    { "tipo": "Café Contacto", "ano": 2009 },
+    { "tipo": "Café Contacto", "ano": 2011 },
+    { "tipo": "Café Contacto", "ano": 2014 },
+
+    { "tipo": "Palcos de Verão", "edicao": 1, "ano": 2010 },
+    { "tipo": "Palcos de Verão", "edicao": 2, "ano": 2012 },
+
+    { "tipo": "Dar Teatro", "ano": 2004 },
+    { "tipo": "Dar Teatro", "ano": 2005 },
+
+    { "tipo": "Contacto Porta Abertas", "edicao": 1, "ano": 2016 }
+  ],
+
+  "itinerancia": {
+    "titulo": "ITINERÂNCIA TEATRAL",
+    "texto": "A par das produções e das iniciativas teatrais que anualmente foram sendo realizadas, a Contacto foi regularmente convidada para representar os seus espetáculos em muitas localidades do nosso país, auferindo com a itinerância teatral grande prestígio junto das populações e o apreço de muitos agentes culturais. A média anual de espetáculos ronda os trinta e cinco, para um número estimado em mais de seis mil espectadores. Toda esta ação foi e é feita a título de intercâmbio teatral e, portanto, sem quaisquer fins lucrativos. Em termos geográficos já realizou espetáculos em concelhos dos distritos de Aveiro, Braga, Castelo Branco, Coimbra, Évora, Leiria, Lisboa, Porto, Santarém, Setúbal, Viana do Castelo, Vila Real e Viseu. Em outubro de 2022 realizou o seu primeiro espetáculo fora de Portugal, tendo atuado em Mérida no âmbito do IX Festival Ibérico de Teatro Amateur;",
+    "distritos": [
+      "Aveiro",
+      "Braga",
+      "Castelo Branco",
+      "Coimbra",
+      "Évora",
+      "Leiria",
+      "Lisboa",
+      "Porto",
+      "Santarém",
+      "Setúbal",
+      "Viana do Castelo",
+      "Vila Real",
+      "Viseu"
+    ],
+    "internacional": [
+      {
+        "local": "Mérida, Espanha",
+        "ano": 2022,
+        "evento": "IX Festival Ibérico de Teatro Amateur"
+      }
+    ]
+  },
+
+  "meritos": {
+    "titulo": "MÉRITOS",
+    "texto": "Do Jornal de Ovar, a Contacto foi distinguida com o «Neptuno 97», na área da cultura e orgulha-se de ter no seu elenco a atriz Andreia Lopes e o jovem ator Nuno Sobreira igualmente distinguidos, no âmbito das revelações artísticas, com o «Neptuno 96» e «Neptuno 98», respetivamente. A 7/12/2006, o Jornal Praça Pública atribui à Companhia o prémio da Cultura. Do Amasporto, o Prémio Talma, em 5/2/2006. No Cale-se, Festival Nacional de Teatro de Amadores, realizado em Gaia, nos meses de Janeiro a Março de 2007, a peça «A Lição» foi premiada em 5 categorias: Melhor Espetáculo, Melhor Encenação (Manuel Ramos Costa), Melhor Cenografia (Manuel Ramos Costa), Melhor Banda Sonora (Fernando Rodrigues), Melhor Interpretação Masculina (Álvaro Rocha); No IV Festival Nacional de Teatro de Amadores, organizado pela Associação Nacional de Teatro de Amadores uma iniciativa da ANTA em parceria com a Câmara da Póvoa de Lanhoso, em Fevereiro de 2008, a peça «A Farsa de Mestre Pathelin» foi premiada com o prémio de Melhor Guarda Roupa (Maria José Valente) e também com uma Menção Honrosa para o Melhor Intérprete Masculino (Nuno Sobreira, interpretando Pedro Pathelin). No V Festival Nacional de Teatro de Amadores uma iniciativa da ANTA em parceria com a Câmara da Póvoa de Lanhoso, em fevereiro de 2009, a peça «O Auto da Alma» foi premiada com o prémio de Melhor Guarda Roupa (Maria José Valente), Melhor Encenação (Manuel Ramos Costa) e também uma Menção Honrosa para o Melhor Espetáculo. Em 25 de Julho de 2009 foi agraciada com a Medalha de Mérito Municipal (cobre) pelo Município de Ovar. A 9 de Dezembro de 2009 a Presidência do Conselho de Ministros conferiu Utilidade Pública à Contacto em despacho assinado pelo Sr. Primeiro-Ministro José Sócrates. Em 5 de Março de 2011 a Contacto obteve, com a peça «Armadilha para um Homem só», pela sua participação na VII edição do Concurso Nacional de Teatro, uma parceria entre o Município da Póvoa de Lanhoso e a Federação Portuguesa de Teatro, o prémio para a Melhor Interpretação Masculina (Bruno Biscaia, interpretando La Merluche). Em 3 de Março de 2012, a Contacto venceu o Prémio Ruy de Carvalho para a Melhor Produção (Gradim à janela da ausência), Prémio para a Melhor Encenação (Manuel Ramos Costa) e Prémio para a melhor Interpretação Masculina (Nuno Sobreira), na VIII edição do Concurso Nacional de Teatro, que foi organizada pela Federação Portuguesa de Teatro e pelo Município da Póvoa de Lanhoso, e que contou com o apoio da Fundação Inatel e da Secretaria de estado da Cultura. Prémio para o Melhor Desenho de Luz (André Silva) no Cale-se 7, Festival Internacional de Teatro que decorreu de 9 de março a 04 de Maio de 2013, com a peça «Milena de Praga»; Neste mesmo certame a produção «Milena de Praga» obteve nomeações para Melhor Sonoplastia, Melhor Figurino, Melhor Encenação e Melhor Espetáculo. Na X edição do Concurso Nacional de Teatro que foi organizada pela Federação Portuguesa de Teatro e pelo Município da Póvoa de Lanhoso, e que contou com o apoio da Fundação Inatel e com a produção «Prometo, não volta a acontecer!», a Contacto obteve uma Menção Honrosa para Melhor Desenho de Luz (André Silva) e uma Menção Honrosa para Melhor Interpretação Masculina (Manuel Costa) a 1 de março de 2014; Na XVII edição do Concurso Nacional de Teatro Ruy de Carvalho que foi organizada pela Federação Portuguesa de Teatro e pelo Município da Póvoa de Lanhoso, com a produção «Falar verdade a mentir», a Contacto conquistou os seguintes prémios: Melhor Desenho de Luz (Prémio Orlando Worm), João Barge, Melhor Sonoplastia, Fernando Rodrigues, Melhor Cenografia (Prémio João Barros), Manuel Ramos Costa, Melhor Guarda-Roupa, Manuel Ramos Costa, Melhor Interpretação Principal Feminina, Andreia Lopes, Melhor Interpretação Principal Masculina, João Martins e Melhor Encenação, Manuel Ramos Costa, a 12 de março de 2022; No âmbito da 37ª edição do FETAV – Festival de Teatro Amador de Valbom, que a partir de 2022 passou a ser de cariz competitivo, a Contacto conquistou os seguintes prémios com a produção «Falar verdade a mentir» de Almeida Garret: Melhor Atriz – Andreia Lopes, Melhor Ator – João Martins, Melhor encenação – Manuel Ramos Costa e Melhor Espetáculo, a 4 de junho de 2022; No âmbito das IV Jornadas de Teatro do Grupo Mérito Dramático Avintense que em 2023 passou a ser de cariz competitivo, a Contacto conquistou os seguintes prémios com a produção «A comédia da urna»: Melhor Ator, Luís Ribeiro e Menção Honrosa para Diogo Pinto; No 39º Fetav, a Contacto com a produção «O inspetor geral», conquistou o prémio de melhor encenação - Manuel Ramos Costa;"
+  },
+
+  "secao_construtores": {
+    "titulo": "CONSTRUTORES E COLABORADORES",
+    "intro": "Contando com as que atualmente trabalham nos espetáculos que estão em cena, participaram na nossa Companhia mais de duas centenas de pessoas (...).",
+    "nomes": [
+      "Manuel António Costa",
+      "António Alberto Lopes",
+      "Álvaro Rocha",
+      "Isabel Granja",
+      "Jorge Costa",
+      "Delfim Lima",
+      "David Aguiar",
+      "Elisabete Teques",
+      "Alberto Teques",
+      "Aníbal Teques",
+      "Elvira Granja",
+      "António Malafaia",
+      "Ernesto Santos",
+      "José Guedes",
+      "Maria da Luz",
+      "Fátima Conde",
+      "Conceição Azevedo",
+      "Conceição Queirós",
+      "Maria da Graça",
+      "Lurdes Rodrigues",
+      "José António",
+      "Carlos Santos",
+      "Paulo Biscaia",
+      "Helena Santos",
+      "António Aguiar",
+      "Isolete Santos",
+      "José Eduardo",
+      "Zélia Pepolim",
+      "Manuel Pires Bastos",
+      "Alexandrina Paiva",
+      "Maria José Mendes",
+      "José Carlos",
+      "Andreia Lopes",
+      "Sérgio Rafael",
+      "Mónica Rocha",
+      "Eugénia Queirós",
+      "Fernando Rodrigues",
+      "Daniela Fula",
+      "Fátima Carapinha",
+      "Maria Alice Carvalho",
+      "Cristina Carvalho",
+      "Manuel Ferreira",
+      "Celina Costa",
+      "José Costa",
+      "João Ruela",
+      "Pedro Félix",
+      "Liliana Rocha",
+      "Sérgio Praias",
+      "Ana de Cristina",
+      "Lia Rocha",
+      "Maria José Muge",
+      "São Gonçalves",
+      "António Queirós",
+      "Avelino Queirós",
+      "Pedro Silva",
+      "Vítor Santos",
+      "João Lavoura",
+      "Pedro Lopes",
+      "Bruno Rilho",
+      "Óscar Malícia",
+      "Carlos Reis",
+      "Céu Gonçalves",
+      "Orquídea Reis",
+      "Manuel Malícia",
+      "Maria dos Anjos",
+      "Cláudio Valente",
+      "Ondina Lopes",
+      "Mané Graça",
+      "Inês Sobreira",
+      "Letícia Martins",
+      "Fábio Aguiar",
+      "Sílvia Costa",
+      "Miguel Duarte",
+      "João Cunha",
+      "Carina Reis",
+      "Susana Andrez",
+      "Raquel Campos",
+      "Patrícia Henriques",
+      "Bárbara Andrez",
+      "Iolanda Reis",
+      "Sandra Granja",
+      "Augusto Dias",
+      "Nuno Sobreira",
+      "Joana Muchagata",
+      "Artur Leite",
+      "Rui Leite",
+      "Isilda Margarida",
+      "Marília Martins",
+      "Bruno Biscaia",
+      "André Sobreira",
+      "Domingos Faria",
+      "Daniela Lopes",
+      "Inês Cruz",
+      "Énia Silva",
+      "Marcelle Varanda",
+      "Marco Luzia",
+      "Emanuel Silva",
+      "Ana Sofia",
+      "Sílvia Silva",
+      "Maria do Céu",
+      "Mara Lisa",
+      "Milene Sousa",
+      "Joana Catarina",
+      "Carla Dias",
+      "Frederico Pinto",
+      "João Vieira",
+      "Inês Nunes",
+      "Catarina Boucinha",
+      "Idalina Santos",
+      "Esmeralda Souto",
+      "Céu Rilho",
+      "João Freitas",
+      "Ana Cristina",
+      "Maria Miguel",
+      "Maria João Resende",
+      "Ana Catarina",
+      "Vasco Guimarães",
+      "Maria José Valente",
+      "Bruno Gama",
+      "António Costa",
+      "Laura Santos",
+      "Tatiana Carvalho",
+      "Laura Reis",
+      "Gabriela Vale",
+      "Adélia Oliveira",
+      "Lurdes Sobreira",
+      "Daniel Maciel",
+      "João Conde",
+      "António Pinho",
+      "Fábio Carvalho",
+      "Zélia Almeida",
+      "Conceição Piqueiro",
+      "Luís Filipe",
+      "Carla Ferreira",
+      "Ana Covas",
+      "Cláudia Gomes",
+      "Sara Reis",
+      "Tiago Moreira",
+      "André Pisco",
+      "Inês Amaral",
+      "Rita Bousbaa",
+      "Joana Freitas",
+      "Rita Pinto",
+      "Ricardo Braga",
+      "Goretti Vaz",
+      "Ivânia Carapinha",
+      "Sofia Monteiro",
+      "João Santos",
+      "Leandro Silva",
+      "Alessandro Varanda",
+      "Elson Silva",
+      "Miguel Sobreira",
+      "Vera Magalhães",
+      "Alice Grade",
+      "Inês Pinto",
+      "Bárbara Tavares",
+      "Diana Vieira",
+      "André Scala",
+      "José Miguel",
+      "João Paulo",
+      "Catarina Santos",
+      "Inês Guimarães",
+      "Marcelino Costa",
+      "José Correia",
+      "Raul Andrade",
+      "Sara Vaz",
+      "Armandina Guimarães",
+      "Teresa Leite",
+      "Francisco Cunha",
+      "Miguel Vasco",
+      "Adriana Isabel",
+      "Margarida Keating",
+      "Cristina Silva",
+      "Mariana Silva",
+      "Laura Poças",
+      "Teresa Poças",
+      "Jorge Queirós",
+      "Maria Luís Resende",
+      "Juliana Almeida",
+      "Sofia Rodrigues",
+      "Beatriz Dias",
+      "Maria João Ferreira",
+      "Leonor Reis",
+      "João Martins",
+      "João Macedo",
+      "Ricardo Pinho",
+      "Luís Ribeiro",
+      "Fausto Dias",
+      "Ana Manarte",
+      "Pedro Poças",
+      "Joana Sousa",
+      "Karina Moreira",
+      "Sofia Cunha",
+      "Margarida Martins",
+      "Jorge Fraga",
+      "Palmira Rodrigues",
+      "Manuel Ricardo",
+      "Carlos Granja",
+      "Diogo Azevedo",
+      "José Ferreira",
+      "Marco Paulo",
+      "Gonçalo Boavida",
+      "João Barge",
+      "Aurora Gaia",
+      "Tiago Amaral",
+      "Dorinda Resende",
+      "Inês Lopes",
+      "Iara Duarte",
+      "Sandra Macedo",
+      "António Ferreira",
+      "Amélia França",
+      "Ângelo Barbas",
+      "Diogo Pinto",
+      "Francisco Alves",
+      "Constança Poças",
+      "Natacha Silva",
+      "Cláudio Bombazaro",
+      "Inês Costeira",
+      "Pedro Damião"
+    ]
+  },
+
+  "moradas": [
+    {
+      "nome": "Casa 24/26 – Rua Dr. José Falcão",
+      "descricao": "Primeira reunião e estreia com «A Promessa».",
+      "periodo": "1983",
+      "lat": 40.8671,
+      "lng": -8.6243
+    },
+    {
+      "nome": "Salão Paroquial São Cristóvão",
+      "periodo": "1983–1985",
+      "descricao": "Primeiros dois anos da Contacto.",
+      "lat": 40.8649,
+      "lng": -8.6239
+    },
+    {
+      "nome": "Teatro Ovarense",
+      "periodo": "1985–1995",
+      "descricao": "Funcionou como secção do Orfeão de Ovar.",
+      "lat": 40.8585,
+      "lng": -8.6262
+    },
+    {
+      "nome": "Casa 46/48 – Rua Alexandre Herculano",
+      "periodo": "1995–2002",
+      "descricao": "Espaço cedido pela Família Sá.",
+      "lat": 40.8603,
+      "lng": -8.6249
+    },
+    {
+      "nome": "SEDE ATUAL – Rua Dr. José Falcão 237–239",
+      "periodo": "2002–Atual",
+      "descricao": "Adquirida em 2001, inaugurada 2002.",
+      "lat": 40.8627,
+      "lng": -8.6256,
+      "destaque": true
+    }
+  ]
+}

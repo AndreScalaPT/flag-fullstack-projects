@@ -1,10 +1,10 @@
-import abrilemflor from "../imgs/initiatives/abrilemflor.png";
-import cafecontacto from "../imgs/initiatives/cafecontacto.png";
-import darteatro from "../imgs/initiatives/darteatro.png";
-import festinfancia from "../imgs/initiatives/festinfancia.png";
-import festovar from "../imgs/initiatives/festovar.png";
-import oficinadeteatro from "../imgs/initiatives/oficinadeteatro.png";
-import palcosverao from "../imgs/initiatives/palcosverao.png";
+import abrilemflor from "/imgs/initiatives/abrilemflor.png";
+import cafecontacto from "/imgs/initiatives/cafecontacto.png";
+import darteatro from "/imgs/initiatives/darteatro.png";
+import festinfancia from "/imgs/initiatives/festinfancia.png";
+import festovar from "/imgs/initiatives/festovar.png";
+import oficinadeteatro from "/imgs/initiatives/oficinadeteatro.png";
+import palcosverao from "/imgs/initiatives/palcosverao.png";
 
 export default function InitiativesList() {
   const initiatives = [
