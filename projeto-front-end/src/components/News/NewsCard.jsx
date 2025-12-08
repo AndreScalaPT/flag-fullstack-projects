@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
 
 const buildNewsRoute = (link = "") => {
-  const slug = link
-    .split("/")
-    .filter(Boolean)
-    .pop();
+  const slug = link.split("/").filter(Boolean).pop();
   return slug ? `/news/${slug.toLowerCase()}` : "/news";
 };
 
-export default function NewsCard({ title, date, categories, excerpt, image, link }) {
+export default function NewsCard({
+  title,
+  date,
+  categories,
+  excerpt,
+  image,
+  link,
+}) {
   const newsPath = buildNewsRoute(link);
 
   return (
@@ -52,7 +56,10 @@ export default function NewsCard({ title, date, categories, excerpt, image, link
           </div>
 
           {/* LER MAIS */}
-          <Link to={newsPath} className="text-sm font-semibold text-neutral-800 hover:underline">
+          <Link
+            to={newsPath}
+            className="text-sm font-semibold text-neutral-800 hover:underline"
+          >
             ler mais…
           </Link>
         </div>

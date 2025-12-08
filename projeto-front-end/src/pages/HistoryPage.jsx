@@ -105,12 +105,10 @@ export default function HistoryPage() {
       : moradas[moradas.length - 1];
 
   return (
-    <div className="min-h-screen bg-base-100 pt-24 pb-16 px-4">
+    <div className="min-h-screen bg-base-100 pt-10 pb-16 px-4">
       <div className="max-w-6xl mx-auto space-y-8">
         <header className="text-center space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-            {pagina.titulo}
-          </h1>
+          <h1 className="section-title">{pagina.titulo}</h1>
           <p className="text-sm text-base-content/70">{pagina.subtitulo}</p>
         </header>
 
