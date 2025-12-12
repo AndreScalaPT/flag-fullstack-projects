@@ -10,6 +10,7 @@ import logoBlue from "/imgs/contacto-logo-blue.png";
 
 import { MdPerson } from "react-icons/md";
 
+/* Navbar responsivo com efeito de scroll, menu desktop/mobile, login modal e links de redes sociais */
 export default function MainNav() {
   const [scrolled, setScrolled] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
@@ -26,12 +27,12 @@ export default function MainNav() {
         return;
       }
 
-      // só na home muda com scroll
+      // só na página inicial muda com scroll
       setScrolled(scrollContainer.scrollTop > window.innerHeight * 0.95);
     };
 
     scrollContainer.addEventListener("scroll", onScroll);
-    onScroll(); // corre 1x ao carregar
+    onScroll(); // executa 1x ao carregar
 
     return () => scrollContainer.removeEventListener("scroll", onScroll);
   }, []);

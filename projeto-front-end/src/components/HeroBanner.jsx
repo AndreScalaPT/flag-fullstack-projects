@@ -1,19 +1,20 @@
 import heroImg from "/imgs/hero/HeroImg-1.png";
 
+// Banner principal da homepage
 export default function HeroBanner() {
   return (
     <section
       id="inicio"
       className="relative h-screen w-full flex flex-col items-center justify-end text-center text-white overflow-hidden"
     >
-      {/* Fundo */}
+      {/* Imagem de fundo */}
       <img
         src={heroImg}
         alt="Contacto Banner"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
 
-      {/* Overlay escuro */}
+      {/* Sobreposição escura */}
       {/*       <div className="absolute inset-0 bg-black/40 z-0" />*/}
 
       {/* Texto */}

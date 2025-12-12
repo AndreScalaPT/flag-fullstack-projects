@@ -1,5 +1,7 @@
 import { SiFacebook, SiInstagram, SiYoutube } from "react-icons/si";
 
+/* renderiza links para redes sociais com cores adaptativas ao scroll */
+
 export default function IconGroup({ scrolled }) {
   const baseColor = scrolled ? "text-slate-700" : "text-white";
 

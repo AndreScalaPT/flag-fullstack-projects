@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+/* Renderiza link de navegação com efeito hover e cores adaptativas ao scroll */
 export default function NavItem({ to, scrolled, label }) {
   return (
     <Link

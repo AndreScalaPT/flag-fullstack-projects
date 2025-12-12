@@ -1,4 +1,27 @@
-import { useMemo, useState, useEffect } from "react";
+/*
+TODO: separar este ficheiro em múltiplos componentes para melhor leitura
+
+ProducoesSection 
+HistoriaSection
+ItineranciaSection
+MeritosSection
+ColaboradoresSection
+MoradasSection
+FiltersBar (pesquisa + dropdowns)
+Timeline
+TimelineYear
+
+TODO: separar a lógica do UI ?!!
+TODO: optimizar o UI, não estou convencido
+TODO: lazy loading ?
+
+ */
+
+import {
+  useMemo,
+  useState,
+  useEffect,
+} from "react"; /* https://react.dev/reference/react/useMemo  guardar em cache o cálculo entre renderizações*/
 import historyData from "../data/history.json";
 import AddressMap from "../components/AddressMap";
 
@@ -30,11 +53,12 @@ export default function HistoryPage() {
     moradas,
   } = historyData;
 
+  /* Animação automática das moradas */
   useEffect(() => {
     if (!isTourPlaying || !moradas || moradas.length === 0) return;
 
     let i = 0;
-    setFoco(0);
+    setFoco(0); /* Primeira posição/morada */
 
     const id = setInterval(() => {
       i += 1;
@@ -49,6 +73,7 @@ export default function HistoryPage() {
     return () => clearInterval(id);
   }, [isTourPlaying, moradas]);
 
+  /* Sempre que usamos o hook useMemo memoriza para não estar sempre a recalcular */
   const anos = useMemo(
     () => [...new Set(producoes.map((p) => p.ano))].sort((a, b) => a - b),
     [producoes]
@@ -105,11 +130,11 @@ export default function HistoryPage() {
       : moradas[moradas.length - 1];
 
   return (
-    <div className="min-h-screen bg-base-100 pt-10 pb-16 px-4">
+    <div className="min-h-screen bg-gray-50 pt-10 pb-16 px-4">
       <div className="max-w-6xl mx-auto space-y-8">
         <header className="text-center space-y-2">
           <h1 className="section-title">{pagina.titulo}</h1>
-          <p className="text-sm text-base-content/70">{pagina.subtitulo}</p>
+          <p className="text-sm text-gray-600">{pagina.subtitulo}</p>
         </header>
 
         <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -122,12 +147,14 @@ export default function HistoryPage() {
           <StatCard label="Categorias" value={stats.categoriasDistintas} />
         </section>
 
-        <nav className="tabs tabs-boxed w-full flex flex-wrap">
+        <nav className="bg-white rounded-lg shadow-sm p-2 w-full flex flex-wrap gap-2">
           {TABS.map((tab) => (
             <button
               key={tab.id}
-              className={`tab flex-1 md:flex-none ${
-                activeTab === tab.id ? "tab-active" : ""
+              className={`flex-1 md:flex-none px-4 py-2 rounded-md text-sm font-medium transition ${
+                activeTab === tab.id
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
               onClick={() => setActiveTab(tab.id)}
             >
@@ -138,7 +165,7 @@ export default function HistoryPage() {
 
         {activeTab === "historia" && (
           <SectionCard title={historia.titulo}>
-            <p className="leading-relaxed text-base-content/90 text-justify whitespace-pre-line">
+            <p className="leading-relaxed text-gray-700 text-justify whitespace-pre-line">
               {historia.texto}
             </p>
           </SectionCard>
@@ -150,12 +177,12 @@ export default function HistoryPage() {
               <input
                 type="text"
                 placeholder="Pesquisar por título ou autor…"
-                className="input input-bordered w-full"
+                className="px-4 py-2 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
               <select
-                className="select select-bordered w-full md:w-44"
+                className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-44 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={categoryFilter}
                 onChange={(e) => setCategoryFilter(e.target.value)}
               >
@@ -167,7 +194,7 @@ export default function HistoryPage() {
                 ))}
               </select>
               <select
-                className="select select-bordered w-full md:w-32"
+                className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-32 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={yearFilter}
                 onChange={(e) => setYearFilter(e.target.value)}
               >
@@ -185,26 +212,26 @@ export default function HistoryPage() {
                 .sort((a, b) => Number(a) - Number(b))
                 .map((ano) => (
                   <div key={ano} className="relative pl-6">
-                    {/* linha vertical */}
-                    <div className="absolute left-2 top-0 h-full w-px bg-base-300" />
-                    {/* ponto do ano */}
-                    <div className="absolute left-1 top-1 w-3 h-3 rounded-full bg-primary" />
+                    {/* Linha vertical */}
+                    <div className="absolute left-2 top-0 h-full w-px bg-gray-300" />
+                    {/* Ponto do ano */}
+                    <div className="absolute left-1 top-1 w-3 h-3 rounded-full bg-blue-600" />
                     <h3 className="text-xl font-semibold mb-3">{ano}</h3>
 
                     <div className="grid gap-3 md:grid-cols-2">
                       {timeline[ano].map((p) => (
                         <div
                           key={`${p.titulo}-${p.autor || ""}-${p.ano}`}
-                          className="p-3 rounded-lg bg-base-200/70 hover:bg-base-300 transition-colors"
+                          className="p-3 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors"
                         >
                           <div className="flex items-center justify-between gap-2">
                             <h4 className="font-semibold">{p.titulo}</h4>
-                            <span className="badge badge-sm">
+                            <span className="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded">
                               {p.categoria}
                             </span>
                           </div>
                           {p.autor && (
-                            <p className="text-xs text-base-content/70 mt-1">
+                            <p className="text-xs text-gray-600 mt-1">
                               {p.autor}
                             </p>
                           )}
@@ -216,14 +243,14 @@ export default function HistoryPage() {
                         .map((ev, idx) => (
                           <div
                             key={`${ev.tipo}-${ev.ano}-${idx}`}
-                            className="p-3 rounded-lg bg-primary/10 border border-primary/40"
+                            className="p-3 rounded-lg bg-blue-50 border border-blue-200"
                           >
                             <p className="text-sm font-semibold">
                               {ev.tipo}
                               {ev.edicao && <> – {ev.edicao}ª edição</>}
                             </p>
                             {ev.periodo && (
-                              <p className="text-xs text-base-content/80 mt-1">
+                              <p className="text-xs text-gray-700 mt-1">
                                 {ev.periodo}
                               </p>
                             )}
@@ -234,7 +261,7 @@ export default function HistoryPage() {
                 ))}
 
               {producoesFiltradas.length === 0 && (
-                <p className="text-sm text-base-content/70">
+                <p className="text-sm text-gray-600">
                   Nenhuma produção encontrada com os filtros atuais.
                 </p>
               )}
@@ -244,13 +271,16 @@ export default function HistoryPage() {
 
         {activeTab === "itinerancia" && (
           <SectionCard title={itinerancia.titulo}>
-            <p className="leading-relaxed text-base-content/90 text-justify mb-4">
+            <p className="leading-relaxed text-gray-700 text-justify mb-4">
               {itinerancia.texto}
             </p>
             <h3 className="font-semibold mb-2">Distritos onde já atuou:</h3>
             <div className="flex flex-wrap gap-2 mb-4">
               {itinerancia.distritos.map((d) => (
-                <span key={d} className="badge badge-outline">
+                <span
+                  key={d}
+                  className="px-3 py-1 border border-gray-300 rounded text-sm"
+                >
                   {d}
                 </span>
               ))}
@@ -268,7 +298,7 @@ export default function HistoryPage() {
 
         {activeTab === "meritos" && (
           <SectionCard title={meritos.titulo}>
-            <p className="leading-relaxed text-base-content/90 text-justify whitespace-pre-line">
+            <p className="leading-relaxed text-gray-700 text-justify whitespace-pre-line">
               {meritos.texto}
             </p>
           </SectionCard>
@@ -276,14 +306,14 @@ export default function HistoryPage() {
 
         {activeTab === "colaboradores" && (
           <SectionCard title={secao_construtores.titulo}>
-            <p className="leading-relaxed text-base-content/90 text-justify mb-4">
+            <p className="leading-relaxed text-gray-700 text-justify mb-4">
               {secao_construtores.intro}
             </p>
             <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-sm">
               {secao_construtores.nomes.map((nome) => (
                 <span
                   key={nome}
-                  className="px-3 py-1 rounded-full bg-base-200/80 hover:bg-base-300 transition-colors"
+                  className="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
                 >
                   {nome}
                 </span>
@@ -299,7 +329,7 @@ export default function HistoryPage() {
               <div className="flex-1 space-y-3">
                 <div className="flex items-center justify-between gap-2">
                   <div>
-                    <p className="text-xs uppercase text-base-content/60">
+                    <p className="text-xs uppercase text-gray-600">
                       Morada ativa
                     </p>
                     <p className="text-sm font-semibold">
@@ -307,7 +337,7 @@ export default function HistoryPage() {
                     </p>
                   </div>
                   <button
-                    className="btn btn-sm btn-outline"
+                    className="px-3 py-1 text-sm border border-gray-300 rounded hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition"
                     onClick={() => setIsTourPlaying(true)}
                     disabled={isTourPlaying}
                   >
@@ -315,7 +345,7 @@ export default function HistoryPage() {
                   </button>
                 </div>
 
-                <div className="divider my-1" />
+                <div className="border-t border-gray-200 my-1" />
 
                 {moradas.map((m, i) => {
                   const isActive =
@@ -324,10 +354,10 @@ export default function HistoryPage() {
                     <button
                       key={i}
                       onClick={() => setFoco(i)}
-                      className={`btn w-full justify-start text-left ${
+                      className={`w-full px-4 py-2 text-left rounded-lg transition ${
                         isActive
-                          ? "btn-primary"
-                          : "btn-ghost bg-base-200 hover:bg-base-300"
+                          ? "bg-blue-600 text-white"
+                          : "bg-gray-100 hover:bg-gray-200"
                       }`}
                     >
                       📍 {m.periodo} — {m.nome}
@@ -347,28 +377,22 @@ export default function HistoryPage() {
   );
 }
 
+/* Gerar o cartão branco para o título e conteúdo da secção */
 function SectionCard({ title, children }) {
   return (
-    <section className="card bg-base-100 shadow-md border border-base-200">
-      <div className="card-body space-y-4">
-        <h2 className="card-title text-xl md:text-2xl font-semibold">
-          {title}
-        </h2>
-        {children}
-      </div>
+    <section className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">{title}</h2>
+      <div className="space-y-4">{children}</div>
     </section>
   );
 }
 
+/* Gerar o cartão para as estatísticas */
 function StatCard({ label, value }) {
   return (
-    <div className="card bg-base-100 shadow-sm border border-base-200">
-      <div className="card-body py-3 px-4">
-        <p className="text-xs uppercase tracking-wide text-base-content/60">
-          {label}
-        </p>
-        <p className="text-xl font-semibold mt-1">{value}</p>
-      </div>
+    <div className="bg-white rounded-lg shadow-sm border border-gray-200 py-3 px-4">
+      <p className="text-xs uppercase tracking-wide text-gray-600">{label}</p>
+      <p className="text-xl font-semibold mt-1">{value}</p>
     </div>
   );
 }

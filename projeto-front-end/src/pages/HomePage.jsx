@@ -6,12 +6,12 @@ import OnStage from "../components/OnStage";
 export default function HomePage() {
   return (
     <div className="relative">
-      {/* HERO FULLSCREEN — menu por cima */}
+      {/* HERO ecrã completo — menu por cima */}
       <div className="relative h-screen w-full overflow-hidden">
         <HeroBanner />
       </div>
 
-      {/* BLoco flutuado como estavas a usar — mas sem conflitarmos com navbar */}
+      {/* Bloco flutuante */}
       <div className="relative -translate-y-[20%] w-full flex justify-center z-10">
         <InitiativesList />
       </div>
@@ -22,6 +22,7 @@ export default function HomePage() {
         <NewsCardList limit={4} paginate={false} />
       </section>
 
+      {/* Em Cena */}
       <OnStage />
     </div>
   );

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import logoWhite from "/imgs/contacto-logo-white.png";
 
+/* Modal de login com opções de autenticação social (Google, Facebook, Apple) e email/password */
+
 export default function LoginModal({ closeModal }) {
   return (
     <div className="fixed inset-0 z-9999 flex items-center justify-center">

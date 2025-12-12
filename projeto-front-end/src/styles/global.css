@@ -1,13 +1,10 @@
 @import "tailwindcss";
-@plugin "daisyui";
 
 /* Reset e fonte */
 html,
 body {
   margin: 0;
   padding: 0;
-  /*   overflow-x: hidden;
-  overflow-y: auto; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,44 +12,12 @@ body {
 @layer components {
   /* Section Title */
   .section-title {
-    @apply text-center font-bold uppercase tracking-[0.15em] text-2xl pb-2 relative;
-    color: var(--fallback-c, oklch(var(--bc) / 1));
+    @apply text-center font-bold uppercase tracking-[0.15em] text-2xl pb-2 relative text-gray-800;
   }
 
   .section-title::after {
     content: "";
-    @apply block w-24 h-px mx-auto mt-2;
-    background-color: var(--fallback-p, oklch(var(--p) / 1));
-  }
-
-  /* Navigation link */
-  .nav-link {
-    @apply transition font-light tracking-wide;
-    color: var(--fallback-c, oklch(var(--bc) / 1));
-  }
-
-  /* Underline hover */
-  .nav-underline {
-    position: relative;
-  }
-
-  .nav-underline::after {
-    content: "";
-    @apply absolute left-0 rounded-sm transition-all duration-300;
-    background-color: currentColor;
-    bottom: -4px;
-    width: 0%;
-    height: 2px;
-  }
-
-  .nav-underline:hover::after {
-    width: 100%;
-  }
-
-  /* Social icons animation */
-  .icon-animation {
-    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
+    @apply block w-24 h-px mx-auto mt-2 bg-blue-600;
   }
 }
 

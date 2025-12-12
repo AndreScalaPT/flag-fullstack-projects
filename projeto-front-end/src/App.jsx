@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import MainNav from "./components/MainNav";
 import Footer from "./components/Footer";
 
-// Pages
+// Páginas
 import HomePage from "./pages/HomePage";
 import HistoryPage from "./pages/HistoryPage";
 import NewsPage from "./pages/news/NewsPage";
@@ -12,9 +12,7 @@ import ActivitiesPage from "./pages/ActivitiesPage";
 import ContactsPage from "./pages/ContactsPage";
 import NewsPageList from "./pages/news/NewsPageList";
 
-// =============================
-//  WRAPPER para aplicar scroll
-// =============================
+// Wrapper para gerir o layout e scroll
 function AppContent() {
   const location = useLocation();
 
@@ -29,7 +27,7 @@ function AppContent() {
       <main
         id="app-scroll-container"
         style={{
-          paddingTop: isHome ? "0px" : "78px", // 👈 HOME sem offset / resto normal
+          paddingTop: isHome ? "0px" : "78px",
         }}
       >
         <Routes>

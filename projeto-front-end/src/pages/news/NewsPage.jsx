@@ -3,6 +3,7 @@ import { useState } from "react";
 import newsData from "../../data/news.json";
 import ShareButtons from "../../components/ShareButtons";
 
+/* Renderiza página completa de notícia com conteúdo, galeria, lightbox e artigos relacionados */
 export default function NewsPage() {
   const { slug } = useParams();
   const [lightboxIndex, setLightboxIndex] = useState(null);
@@ -16,7 +17,10 @@ export default function NewsPage() {
     return (
       <section className="container mx-auto py-16">
         <h1 className="text-3xl font-bold mb-4">Notícia não encontrada</h1>
-        <Link className="btn btn-outline" to="/news">
+        <Link
+          className="inline-block px-4 py-2 border border-gray-300 rounded hover:bg-gray-100 transition"
+          to="/news"
+        >
           Voltar às notícias
         </Link>
       </section>
@@ -129,7 +133,10 @@ export default function NewsPage() {
         </section>
       )}
 
-      <Link className="btn btn-outline" to="/news">
+      <Link
+        className="inline-block px-4 py-2 border border-gray-300 rounded hover:bg-gray-100 transition"
+        to="/news"
+      >
         ← Voltar às notícias
       </Link>
     </section>
